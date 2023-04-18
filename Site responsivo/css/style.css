@@ -1,0 +1,94 @@
+*{
+    margin: 5px;
+}
+body{   
+    min-width: 464px;
+    max-height: 100%;
+    background-color: #ffffff;
+}
+
+
+.cabecalho{
+    border: 2px solid rgb(30, 30, 30);
+    padding: 4px;
+    background-color: #012677;
+    border-radius: 45px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 332px;
+    min-height: 80px;
+}
+.logoStyle{
+    border-radius: 40px;
+    max-height: 60px;
+    min-height: 30px;
+    padding: 1px;
+    border: 2px dashed white;
+}
+
+.logoStyle:hover{
+    background-color: transparent;
+    color: #012677;
+    transform: scale(0.8)rotate(360deg);
+    box-shadow: 0 0 60px rgba(69, 122, 201, 0.64);
+    cursor: grab;
+    border: 20px solid lightblue;
+
+
+}
+
+.base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.base:hover{
+    display: center;
+    border-radius: 40px;
+}
+
+.styleItens{
+    justify-content:start;
+    border: 2px dashed white;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    max-height: 100%;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.format{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+.blocos{
+    display: inline-block;
+    border: 2px solid black;
+    min-height: 330px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5) ;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+p{
+    padding: 5px;
+}
+
+div img{
+    border: dashed 2px #012677;
+    border-radius: 10px;
+    padding: 2px;
+}
